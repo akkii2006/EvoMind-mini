@@ -2,6 +2,8 @@
 
 A lightweight version of the EvoMind content moderation system, using SVM-based classification for detecting and filtering messages containing personal information.
 
+Current Version: EvoMind-mini-1.0
+
 ## About EvoMind Mini
 
 EvoMind Mini is a simplified version of the full EvoMind content moderation system. While the main EvoMind (currently at version 1.2) uses advanced neural networks, EvoMind Mini employs a more lightweight Support Vector Machine (SVM) approach, making it suitable for smaller projects and demonstration purposes.
@@ -119,8 +121,13 @@ The current version uses:
 The SVM-based model achieves:
 - Baseline accuracy: ~85%
 - Edge case handling: ~75%
-- Context awareness: Limited compared to full version
+- Context awareness: ~82%
+- Adversarial case detection: ~45%
 - Fast inference time: <50ms on CPU
+
+## Validation Report Plot
+![validation-plot](https://github.com/user-attachments/assets/2c40b546-a5cb-4857-9204-1211e0f4c1d9)
+
 
 ## Contributing
 
