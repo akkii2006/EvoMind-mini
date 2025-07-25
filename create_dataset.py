@@ -6,7 +6,7 @@ To add your own data:
 2. Add unsafe message patterns to unsafe_templates
 3. Adjust the generate_dataset parameters as needed
 
-Made by Rujevo AI
+Made by Mistyoz AI
 """
 
 import pandas as pd
